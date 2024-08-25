@@ -24,15 +24,7 @@ return {
 				values = { "No", "Yes", },
 				tooltip = _("option_fake_schotter_desc"),
 				defaultIndex = 0,
-			},			
-			{
-				key = "soundCheck",
-				name = _("sound_check"),
-				uiType = "CHECKBOX",
-				values = { "No", "Yes", },	
-				tooltip = _("option_sound_check"),			
-				defaultIndex = 1,	
-			},
+			},	
         },
 	},
 	options = {
