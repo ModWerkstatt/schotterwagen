@@ -16,19 +16,19 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/schotterwagen_lod0.msh",
 						name = "schotterwagen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5999999046326, 0, 0.47109115123749, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
@@ -59,19 +59,19 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/schotterwagen_lod1.msh",
 						name = "schotterwagen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/rad_lod1.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5999999046326, 0, 0.47109115123749, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/rad_lod1.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
@@ -88,19 +88,19 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/schotterwagen_lod2.msh",
 						name = "schotterwagen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/rad_lod2.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5999999046326, 0, 0.47109115123749, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Schotterwagen/rumpf_2.mtl", },
+						materials = { "vehicle/waggon/Schotterwagen/rumpf_3.mtl", },
 						mesh = "vehicle/waggon/Schotterwagen/rad_lod2.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
@@ -116,15 +116,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1994,
-			yearTo = 2004,
+			yearFrom = 1934,
+			yearTo = 1948,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("Schotterwagen_2_name"),
+			name = _("Schotterwagen_3_name_fake"),
             description = _("Schotterwagen_desc"),
 		},
 		maintenance = {
@@ -196,15 +196,11 @@ return {
 				{
 					{
 						{
-							capacity = 24,
+							capacity = 4,
 							customCargoModels = {
 								configurations = {
 									{
 										slotLevels = {
-											{ },
-											{ 0 },
-											{ 1 },	
-											{ 2 },
 											{ 3 },											
 										},
 									},									
@@ -215,11 +211,11 @@ return {
 					},
 				}, 
 			},
-			loadSpeed = 2,
+			loadSpeed = 1,
 			maxVolume = 24,
 			maxWeight = 28,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/Schotterwagen/menu_Schotterwagen.mdl",
+			groupFileName = "vehicle/waggon/Schotterwagen/fake/menu_Schotterwagen_fake.mdl",
 			reversible = false,
 		},
 	},
