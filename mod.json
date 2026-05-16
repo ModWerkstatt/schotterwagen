@@ -1,0 +1,16 @@
+{
+    "dependencies": null,
+    "incompatibilities": null,
+    "modId": "mw_schotterwagen",
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    }
+}
