@@ -11,16 +11,22 @@
 
 		"fake": "Fake - ",
 		
-		"Fake_schotter_wagen": "Activate ballast wagon fake versions?",
-		"option_fake_schotter_desc": "Should the fake versions of the gravel wagons be available in the game?",
-		
-		"sound_check": "Activate custom sound?",
-		"option_sound_check": "Should the extra sound be activated?",
-			
+		"fake_schotterwagen": "Activate ballast wagon fake versions?",
+		"tooltip_fake": "Should the fake versions of the gravel wagons be available in the game?",
+					
 		"Schotterwagen_1_name_fake": "Ballast wagon DB Fake",
 		"Schotterwagen_2_name_fake": "Ballast wagon DB AG Fake",
 		"Schotterwagen_3_name_fake": "Ballast wagon DRG Fake",
-		"Schotterwagen_4_name_fake": "Ballast wagon DR Fake"
+		"Schotterwagen_4_name_fake": "Ballast wagon DR Fake",
+	  	  
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
 	
 	},
 	"de": {
@@ -35,19 +41,22 @@
 
 		"fake": "Fake - ",
 		
-		"Fake_schotter_wagen": "Schotterwagen Fake-Versionen aktivieren?",
-		"option_fake_schotter_desc": "Sollen die Fake-Versionen der Schotterwagen verfügbar sein im Spiel?",
-
-		"sound_check": "Eigenes Soundset aktivieren?",
-		"option_sound_check": "Soll der extra Sound aktiviert sein?",
-		
-		
-		"Schotterwagen_menu_fake": "Schotterwagen Fake",
+		"fake_schotterwagen": "Schotterwagen Fake-Versionen aktivieren?",
+		"tooltip_fake": "Sollen die Fake-Versionen der Schotterwagen verfügbar sein im Spiel?",
 
 		"Schotterwagen_1_name_fake": "Schotterwagen DB Fake",
 		"Schotterwagen_2_name_fake": "Schotterwagen DB AG Fake",
 		"Schotterwagen_3_name_fake": "Schotterwagen DRG Fake",
-		"Schotterwagen_4_name_fake": "Schotterwagen DR Fake"
+		"Schotterwagen_4_name_fake": "Schotterwagen DR Fake",
+		
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
 		
 	}
 }

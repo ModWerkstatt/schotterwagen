@@ -2,9 +2,21 @@
     "dependencies": null,
     "incompatibilities": null,
     "modId": "mw_schotterwagen",
-    "params": null,
+    "params": [
+        {
+            "key": "schotterwagen_fake",
+            "name": "fake_schotterwagen",
+            "tooltip": "tooltip_fake",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        }
+    ],
     "postRunScript": {
-        "fileName": ""
+        "fileName": "mw_schotterwagen::mod.script@postRunFn"
     },
     "preRunScript": {
         "fileName": ""
