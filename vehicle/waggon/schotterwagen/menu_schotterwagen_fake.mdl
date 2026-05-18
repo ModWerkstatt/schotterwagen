@@ -39,7 +39,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("menu_schotterwagen_fake"),
+			name = _("fake") .. _("menu_schotterwagen"),
 		},
 		emissions = {
 			noise = {
