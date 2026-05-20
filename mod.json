@@ -1,6 +1,7 @@
 {
     "dependencies": [
         {
+            "loadBefore": true,
             "mod": {
                 "modId": "mw_basis",
                 "revisionMin": 1,
@@ -8,12 +9,11 @@
             },
             "modInfo": {
                 "displayName": "ModWerkstatt Base Mod",
-                 "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+                "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
             },
-            "loadBefore": true,
             "optional": false
-        },
-    },
+        }
+    ],
     "incompatibilities": null,
     "modId": "mw_schotterwagen",
     "params": [
