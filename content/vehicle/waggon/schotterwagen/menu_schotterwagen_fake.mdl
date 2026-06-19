@@ -39,7 +39,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("menu_schotterwagen"),
+			name = _("fake") .. _("menu_schotterwagen"),
 		},
 		emissions = {
 			noise = {
@@ -71,9 +71,9 @@ return {
 		},
 		transportVehicle = {
 			carrier = "RAIL",
-			engineTags = { "ELECTRIC_TRAIN", },
-			tags = { "TRAIN", "ELECTRIC_TRAIN", },
-			multipleUnitOnly = true,
+			engineTransportModes = { },
+			transportModes = { },
+			filterTags = { },
 		},
 	},
 	version = 2,

@@ -1,50 +1,50 @@
 function data()
-return {
-		boundingInfo = {
+return { 
+		boundingInfo = { 
 			bbMax = { 3.05126190185546875, 1.41335451602935791015625, 3.8450014591217041015625, },
 			bbMin = { -3.05126190185546875, -1.41335451602935791015625, -0.029088914394378662109375, },
 		},
-		collider = {
-			params = {
+		collider = { 
+			params = { 
 				halfExtents = { 3.21003055572509765625, 1.41335451602935791015625, 1.93704521656036376953125, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{
-				node = {
+			{ 
+				node = { 
 					children = {
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/schotterwagen_lod0.msh",
 							name = "schotterwagen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/rad_lod0.msh",
 							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/rad_lod0.msh",
 							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
-						{
-							animations = {
-								back_forward_parts_off = {
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_forward_parts_on = {
+								back_forward_parts_on = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
@@ -55,18 +55,18 @@ return {
 							name = "zugschluss_de_front_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85000002384185791015625, -1.21000003814697265625, 2.519999980926513671875, 1, },
 						},
-						{
-							animations = {
-								back_forward_parts_off = {
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_forward_parts_on = {
+								back_forward_parts_on = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
@@ -77,18 +77,18 @@ return {
 							name = "zugschluss_de_front_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85000002384185791015625, 1.21000003814697265625, 2.519999980926513671875, 1, },
 						},
-						{
-							animations = {
-								back_backward_parts_off = {
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_backward_parts_on = {
+								back_backward_parts_on = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
@@ -99,18 +99,18 @@ return {
 							name = "zugschluss_de_back_1",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85000002384185791015625, -1.21000003814697265625, 2.519999980926513671875, 1, },
 						},
-						{
-							animations = {
-								back_backward_parts_off = {
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
-								back_backward_parts_on = {
+								back_backward_parts_on = { 
 									interpolation = "NEAREST",
-									params = {
+									params = { 
 										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
@@ -128,23 +128,23 @@ return {
 				visibleFrom = 0,
 				visibleTo = 200,
 			},
-			{
-				node = {
+			{ 
+				node = { 
 					children = {
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/schotterwagen_lod1.msh",
 							name = "schotterwagen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/rad_lod1.msh",
 							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/rad_lod1.msh",
 							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
@@ -156,23 +156,23 @@ return {
 				visibleFrom = 200,
 				visibleTo = 600,
 			},
-			{
-				node = {
+			{ 
+				node = { 
 					children = {
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/schotterwagen_lod2.msh",
 							name = "schotterwagen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/rad_lod2.msh",
 							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
-						{
-							materials = { "mat/rumpf_4.mtl", },
+						{ 
+							materials = { "mat/rumpf_3.mtl", },
 							mesh = "msh/rad_lod2.msh",
 							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
@@ -185,31 +185,31 @@ return {
 				visibleTo = 1050,
 			},
 		},
-		metadata = {
-			availability = {
-				yearFrom = 1948,
-				yearTo = 1994,
+		metadata = { 
+			availability = { 
+				yearFrom = 1934,
+				yearTo = 1948,
 			},
-			cost = {
+			cost = { 
 				price = -1,
 			},
-			description = {
+			description = { 
 				description = _("Schotterwagen_desc"),
-				name = _("Schotterwagen_4_name_fake"),
+				name = _("Schotterwagen_3_name"),
 			},
-			emissions = {
-				noise = {
+			emissions = { 
+				noise = { 
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
-				pollution = {
+				pollution = { 
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
 			},
-			landVehicle = {
+			landVehicle = { 
 				brakeDeceleration = 2.5,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
@@ -217,12 +217,16 @@ return {
 				weightEmpty = 12000,
 				weightMaxPayload = 0,
 			},
-			loadIndicator = {
-				configs = {
-					slots_0 = {
-						cargoSlots = {
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
 							configurations = {
 								{
+									{ },
+									{ 0, },
+									{ 1, },
+									{ 2, },
 									{ 3, },
 								},
 							},
@@ -230,25 +234,25 @@ return {
 					},
 				},
 				slots = {
-					{
+					{ 
 						group = "RootNode",
 						models = { "beladung/load_stone_1.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					{
+					{ 
 						group = "RootNode",
 						models = { "beladung/load_stone_2.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					{
+					{ 
 						group = "RootNode",
 						models = { "beladung/load_stone_3.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					{
+					{ 
 						group = "RootNode",
 						models = { "beladung/load_stone_4.mdl", },
 						randomId = 1,
@@ -256,36 +260,36 @@ return {
 					},
 				},
 			},
-			maintenance = {
+			maintenance = { 
 				lifespan = 29220,
 				runningCosts = -1,
 			},
-			railVehicle = {
-				config = {
+			railVehicle = { 
+				config = { 
 					axles = { "a1", "a2", },
 					fakeBogies = { },
 				},
 			},
-			soundConfig = {
-				soundSet = {
+			soundConfig = { 
+				soundSet = { 
 					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_alt_gz.snd",
 				},
 			},
-			transformatorConfig = {
+			transformatorConfig = { 
 				skipFromLod = 1,
-				transformator = {
+				transformator = { 
 					name = "::/vehicle/train/shared/default_train.trf",
 				},
 			},
-			transportVehicle = {
+			transportVehicle = { 
 				carrier = "RAIL",
 				compartments = {
-					{
+					{ 
 						loadConfigs = {
-							{
-								cargoEntry = {
-									capacity = 4,
-									cargoTypeSet = {
+							{ 
+								cargoEntry = { 
+									capacity = 24,
+									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
@@ -299,9 +303,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
-				groupFileName = "menu_schotterwagen_fake.mdl",
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				engineTransportModes = { },
+				groupFileName = "menu_schotterwagen.mdl",
+				loadSpeed = 2,
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

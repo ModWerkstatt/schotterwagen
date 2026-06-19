@@ -16,19 +16,19 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/schotterwagen_lod0.msh",
 							name = "schotterwagen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/rad_lod0.msh",
 							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/rad_lod0.msh",
 							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
@@ -132,19 +132,19 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/schotterwagen_lod1.msh",
 							name = "schotterwagen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/rad_lod1.msh",
 							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/rad_lod1.msh",
 							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
@@ -160,19 +160,19 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/schotterwagen_lod2.msh",
 							name = "schotterwagen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/rad_lod2.msh",
 							name = "a1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
 						},
 						{ 
-							materials = { "mat/rumpf_1.mtl", },
+							materials = { "mat/rumpf_2.mtl", },
 							mesh = "msh/rad_lod2.msh",
 							name = "a2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.599999904632568359375, 0, 0.47109115123748779296875, 1, },
@@ -187,15 +187,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1948,
-				yearTo = 1994,
+				yearFrom = 1994,
+				yearTo = 2004,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("Schotterwagen_desc"),
-				name = _("Schotterwagen_1_name"),
+				name = _("Schotterwagen_2_name"),
 			},
 			emissions = { 
 				noise = { 
@@ -303,10 +303,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_schotterwagen.mdl",
 				loadSpeed = 2,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
