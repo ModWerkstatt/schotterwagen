@@ -5,6 +5,9 @@ mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, 
 	local fake_hide: {{string}} = {
 		[1] = {
 			"mw_schotterwagen::/vehicle/waggon/schotterwagen/schotterwagen_1_fake.mdl",
+			"mw_schotterwagen::/vehicle/waggon/schotterwagen/schotterwagen_2_fake.mdl",
+			"mw_schotterwagen::/vehicle/waggon/schotterwagen/schotterwagen_3_fake.mdl",
+			"mw_schotterwagen::/vehicle/waggon/schotterwagen/schotterwagen_4_fake.mdl",
 		},
 		[2] = { }
 	}
