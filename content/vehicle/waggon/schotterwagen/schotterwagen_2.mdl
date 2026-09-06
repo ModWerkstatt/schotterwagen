@@ -210,12 +210,12 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.7,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 16.6666660308837890625,
-				weightEmpty = 12000,
-				weightMaxPayload = 0,
+				weightEmpty = 11570,
+				weightMaxPayload = 21000,
 			},
 			loadIndicator = { 
 				configs = { 
