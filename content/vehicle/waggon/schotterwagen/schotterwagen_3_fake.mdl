@@ -197,13 +197,15 @@ return {
 				description = _("Schotterwagen_desc"),
 				name = _("Schotterwagen_3_name_fake"),
 			},
-			emissions = {
-				noise = {
+			emissions = { 
+				noise = { 
+					score = -1,
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
-				pollution = {
+				pollution = { 
+					score = -1,
 					idle = -1,
 					power = -1,
 					speed = -1,
